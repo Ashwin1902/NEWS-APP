@@ -4,7 +4,7 @@ function Panel() {
     const [data, setData] = useState({articles:[]})
        
     useEffect(()=>{
-        fetch("https://newsapi.org/v2/everything?q=Apple&from=2024-07-08&sortBy=popularity&apiKey=5f33c95080b1471d99b71359dea1452e")
+        fetch("")
         .then(res=>res.json())
         .then(json=>setData(json))
         .catch(err=>console.log(err))
