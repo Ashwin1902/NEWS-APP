@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <div className='bg-orange-200 mx-0 my-0'>
+    <div className='bg-slate-400'>
     <Header></Header>
     <Panel></Panel>
     <Footer></Footer>
